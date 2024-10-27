@@ -1,0 +1,20 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Areas\\Pessoa\\": "areas/pessoa/",
+            "Areas\\Acess\\": "areas/access/",
+            "Areas\\User\\": "areas/user/",
+            "Areas\\Login\\": "areas/login/",
+            "Areas\\Permissions\\": "areas/permissions/",
+            "Lib\\Framework\\Core\\": "lib/framework/Core/",
+            "Lib\\Framework\\Dataprovider\\": "lib/framework/Dataprovider/",
+            "Lib\\Framework\\Resources\\": "lib/framework/Resources/",
+            "Lib\\Framework\\Helpers\\":"lib/framework/Helpers"
+        }
+    },
+    "require": {
+        "steampixel/simple-php-router": "^0.7.1",
+        "vlucas/phpdotenv": "^5.6",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
